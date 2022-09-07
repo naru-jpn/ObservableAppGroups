@@ -11,7 +11,7 @@ import ReplayKit
 class SampleHandler: RPBroadcastSampleHandler {
 
     override func broadcastStarted(withSetupInfo setupInfo: [String : NSObject]?) {
-        try! BroadcastPreferences.shared.isBroadcasting.write(true)
+        try? BroadcastPreferences.shared.isBroadcasting.write(true)
     }
     
     override func broadcastPaused() {
