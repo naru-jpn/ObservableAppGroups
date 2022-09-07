@@ -28,3 +28,7 @@ Text(viewModel.isBroadcasting ? "Broadcasting" : "Not Broadcasting")
 ```
 
 <kbd><img src="https://user-images.githubusercontent.com/5572875/188913479-0b8a32b3-7f50-4772-8be8-1ee740d60d59.png" width="600"></kbd>
+
+## Links
+
+- [App Groups で共有したファイルを監視してプロセス間の変更を Combine で検知する](https://qiita.com/naru-jpn/items/4ba9b5189414f65b8fc8)
